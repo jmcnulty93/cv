@@ -1,0 +1,376 @@
+body {
+	margin:0;
+    padding:0;
+    height:100%;
+	background-image: url(pictures/General/background.jpg);
+	background-repeat: repeat;
+}
+a:link {color: #FF0000; text-decoration: none}
+a:visited {color: #FF0000; text-decoration: none}
+a:active {color: #FF0000; text-decoration: none}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	/*font-size: 18px;*/
+}
+
+a.index:link {color: #cc0000; text-decoration: none}
+a.index:visited {color: #660000; text-decoration: none}
+a.index:active {color: #3300ff; text-decoration: none}
+a.index:hover {
+  color: #ffffff; 
+  background-color: #cc0000; 
+  text-decoration: none
+}
+a.history:link {color: #cc0000; text-decoration: none}
+a.history:visited {color: #660000; text-decoration: none}
+a.history:active {color: #3300ff; text-decoration: none}
+a.history:hover {
+	color: #ffffff;
+	background-color: #ffcc99;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+a.district:link {color: #cc0000; text-decoration: none}
+a.district:visited {color: #660000; text-decoration: none}
+a.district:active {color: #3300ff; text-decoration: none}
+a.district:hover {color: #ffffff; background-color: #ff6600; text-decoration: none}
+
+a.visit:link {color: #cc0000; text-decoration: none}
+a.visit:visited {color: #660000; text-decoration: none}
+a.visit:active {color: #3300ff; text-decoration: none}
+a.visit:hover {color: #ffffff; background-color: #006600; text-decoration: none}
+
+a.announcements:link {color: #cc0000; text-decoration: none}
+a.announcements:visited {color: #660000; text-decoration: none}
+a.announcements:active {color: #3300ff; text-decoration: none}
+a.announcements:hover {color: #ffffff; background-color: #006699; text-decoration: none}
+
+a.contact:link {color: #cc0000; text-decoration: none}
+a.contact:visited {color: #660000; text-decoration: none}
+a.contact:active {color: #3300ff; text-decoration: none}
+a.contact:hover {color: #ffffff; background-color: #003399; text-decoration: none}
+
+a.gallery:link {color: #cc0000; text-decoration: none}
+a.gallery:visited {color: #660000; text-decoration: none}
+a.gallery:active {color: #3300ff; text-decoration: none}
+a.gallery:hover {color: #ffffff; background-color: #880000; text-decoration: none}
+#header {
+	margin: auto;
+	padding: 0px;
+	width: 780px;
+}
+#header {
+	width: 960px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+}
+#logo {
+	text-align: center;
+	float: none;
+	width: 297px;
+	height: 55px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	display: block;
+}
+#menu {
+	padding: 5px;
+	clear: both;
+	width: 780px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 1px;
+	margin-left: 5px;
+}
+#wave {
+	background-image: url(/pictures/General/wave.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#container {
+	position: relative;
+	text-align: center;
+	min-height:100%;
+	width: 100%;
+}
+#header {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 115px;
+	padding-left: 0px;
+	position: relative;
+	text-align: center;
+	top: 0px;
+}
+#logo {
+	height: 0px;
+	width: 250px;
+	top: 0px;
+	bottom: 0px;
+	clip: rect(0px,auto,0px,auto);
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #713C60;
+	position: relative;
+}
+#wave {
+	background-image: url(/pictures/General/wave.jpg);
+	background-repeat: repeat-x;
+	height: 300px;
+}
+#content {
+	height: auto;
+	background-image: url(/pictures/General/blue%20background.png);
+	position: relative;
+	text-align: left;
+	overflow: auto;
+	float: none;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menuitem {
+}
+#menuright {
+	right: -39px;
+	position: absolute;
+	height: 42px;
+	width: 392px;
+	top: 161px;
+}
+#menuleft {
+	position: absolute;
+	left: -64px;
+	top: 195px;
+	width: 1085px;
+	float: left;
+	height: 780px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #713C3D;
+}
+#Home {
+	position: absolute;
+	left: 251px;
+	top: 8px;
+}
+#Email {
+	position: absolute;
+	left: 623px;
+	top: 6px;
+	width: 104px;
+	height: 71px;
+}
+#wave {
+	background-image: url(/pictures/General/wave.png);
+	width: 100%;
+	position: relative;
+	height: 200px;
+	background-attachment: scroll;
+	background-position: center 50px;
+	text-align: center;
+}
+#info {
+	padding-right: 0px;
+	padding-left: 0px;
+	color: #666;
+	text-align: center;
+	width: 500px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: 50px;
+	position: relative;
+	font-size: 12px;
+	font-weight: normal;
+}
+#title {
+	width: 200px;
+}
+#links {
+	ul {
+  list-style-type: none;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  float: left;
+  border: 1px solid #333;
+  border-bottom: none;
+  margin: 0 5px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+/*	width: 100%;
+	background-image: none;
+}
+#container #wave {
+	color: #FFF;
+	background-image: url(/pictures/General/wave%20background.png);
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+}
+#container #wave p {
+	font-size: larger;
+}*/
+#container #content #info p {
+	color: #4C4C4C;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100;
+	font-size: 15px;
+}
+#info {
+	width: 50%;
+}
+#links {
+	width: 50%;
+}
+#container #content form p {
+	text-align: left;
+}
+#container #content form {
+	color: #4C4C4C;
+}
+#container #content form {
+	font-size: small;
+}
+#container #content form {
+	font-size: medium;
+	float: left;
+	width: 40%;
+}
+#container #content form {
+	text-align: left;
+	font-size: medium;
+	font-style: normal;
+	width: 45%;
+	float: right;
+	position: relative;
+	overflow: auto;
+	padding-right: 20px;
+	clear: none;
+}
+#container #content form p {
+	text-align: right;
+}
+#container #content form p {
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	padding-left: 50px;
+}
+#contact picture {
+	float: left;
+	width: 50%;
+}
+#history {
+	float: left;
+	width: 15%;
+	color: #399;
+	font-size: medium;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#visitor information {
+	float: left;
+	width: 15%;
+}
+#visitor info {
+	float: left;
+	width: 15%;
+}
+#container #header #menuleft table tr th p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #3E838D;
+}
+#container #header #menuleft table tr th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	text-align: center;
+	letter-spacing: normal;
+	white-space: normal;
+	word-spacing: normal;
+	line-height: 5px;
+	font-weight: normal;
+	color: #713C5F;
+}
+#container #header #menuleft div table tr th p {
+	color: #713C3D;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	line-height: 0.1%;
+	font-weight: normal;
+}
+#container #header #menuleft div table {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+#container #header #menuleft div table {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: normal;
+	position: relative;
+	color: #713C5E;
+}
+#image {
+	position: relative;
+	overflow: visible;
+	height: auto;
+	width: 100%;
+}
+#container #content {
+	background-image: url(/html/pictures/General/blue%20background.png);
+}
+#container #content {
+	height: 600px;
+	width: 100%;
+}
+#container #content form {
+	margin-right: 80px;
+}
+a img {border:none;}
+.imag {
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-color: #F3F3F3;
+	border-right-color: #F3F3F3;
+	border-bottom-color: #F3F3F3;
+	border-left-color: #F3F3F3;
+}
+#apDiv9 {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 115px;
+	z-index: 1;
+	background-image: url(pictures/General/wave.png);
+	left: 0px;
+	top: 1037px;
+	background-repeat: repeat-x;
+}
